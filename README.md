@@ -4,12 +4,22 @@
 
 A simple React library to react to responsive events using the new context api.
 
+## Installation
+
+```
+With NPM:
+npm i --save @dvaji/react-responsive
+
+With Yarn:
+yarn add @dvaji/react-responsive
+```
+
 ### Example
 
 Include the provider for giving the context
 
 ```jsx
-import { ResponsiveProvider } from 'react-responsive'
+import { ResponsiveProvider } from '@dvaji/react-responsive'
 
 ReactDOM.render(
   <ResponsiveProvider>
@@ -22,7 +32,7 @@ ReactDOM.render(
 Use the consumer in your components
 
 ```jsx
-import { ResponsiveConsumer } from 'react-responsive'
+import { ResponsiveConsumer } from '@dvaji/react-responsive'
 ;() => (
   <ResponsiveConsumer>
     {status => (
@@ -46,7 +56,7 @@ Default sizes:
 you can set any ranges you want like this
 
 ```jsx
-import { ResponsiveProvider } from 'react-responsive'
+import { ResponsiveProvider } from '@dvaji/react-responsive'
 
 // An object with your custom ranges
 const sizes = {
