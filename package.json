@@ -1,5 +1,5 @@
 {
-  "name": "react-responsive",
+  "name": "@dvaji/react-responsive",
   "version": "0.0.1",
   "description": "library for reacting to responsive events",
   "main": "index.js",
